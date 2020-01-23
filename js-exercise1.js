@@ -139,7 +139,22 @@ var lastthing = 'Properties,$a$set$of$immutable$values,$are$passed$to$a$componen
 var texxt = new Array();
 texxt = lastthing.split("$");
 
-document.write(texxt.join(" "));
+document.write(texxt.join(" ") +br);
 
 
 
+
+var blabla = "Hey there, i am a javascript developer, and i live in vienna";
+
+var dontt =  blabla.slice(11,38);
+
+var donttt = dontt.replace( "i","I")
+
+document.write(donttt +br);
+
+
+
+Start = ['apple', 'banana', 'kiwi'];
+Start.pop('kiwi')
+Start.push('orange', 'strawberry', 'kiwi');
+document.write(Start +br);
