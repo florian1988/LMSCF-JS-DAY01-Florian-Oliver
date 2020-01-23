@@ -28,7 +28,7 @@ document.write(animals.reverse()+br)
 
 var a = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon"
 var newFruits = new Array();
-newFruits = a.split("/");
+newFruits = a.split("/")
 console.log(newFruits)
 a[0] = "mango"
 a[1] = "cherries"
@@ -82,4 +82,4 @@ var article = 'Properties,$a$set$of$immutable$values,$are$passed$to$a$component\
 var text = new Array();
 text = article.split("$");
 console.log(text)
-document.write(text.join(" "))
+document.write(text.join(" ")) 
